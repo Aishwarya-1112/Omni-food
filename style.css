@@ -202,32 +202,56 @@ button {
 }
 .menu {
   display: grid;
-  grid-template-rows: 3fr 2fr;
+  /* grid-template-rows: 3fr 2fr; */
 }
 .veg {
   grid-row: 1;
-  height: 450px;
+  height: 500px;
   width: 324px;
   background-color: rgb(255, 255, 255);
   box-shadow: 10px;
   margin: 10px;
-  margin-left: 30%;
+  margin-left: 50%;
   box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
   border-radius: 4px;
   z-index: 1;
   border-radius: 10px;
+  transition: all 0.4s;
+}
+.veg:hover {
+  transform: translateY(-1.2rem);
+}
+
+.meal-icon {
+  height: 1.8rem;
+  width: 1.8rem;
+  color: #e67e22;
+  margin-left: 30px;
+}
+.meals-one {
+  display: flex;
+}
+li {
+  list-style: none;
+}
+.list-item {
+  margin-right: 30%;
 }
 .vegan {
   grid-row: 1;
-  height: 450px;
+  height: 500px;
   width: 324px;
   background-color: rgb(255, 255, 255);
   box-shadow: 10px;
   margin: 10px;
-  margin-right: 50%;
+  margin-left: 25%;
   box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
   border-radius: 4px;
   border-radius: 10px;
+  transition: all 0.4s;
+}
+.vegan:hover {
+  transform: translateY(-1.2rem);
 }
 .vegans {
   grid-row: 1;
@@ -237,6 +261,122 @@ button {
   box-shadow: 10px;
   margin: 10px;
   margin-right: 50%;
-  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
   border-radius: 4px;
+}
+.paragraphy {
+  display: flex;
+}
+.list-icon {
+  height: 1.8rem;
+  width: 1.8rem;
+  color: #e67e22;
+  padding-right: 10px;
+}
+span {
+  color: #333;
+  font-weight: 500;
+}
+ul li {
+  display: flex;
+  padding: 10px;
+}
+.recipe {
+  background: white;
+  display: flex;
+  justify-content: center;
+  padding-top: 3%;
+  padding-bottom: 6%;
+}
+
+.recipe :-webkit-any-link {
+  font-size: 20px;
+  color: -webkit-link;
+  cursor: pointer;
+  text-decoration: underline;
+  color: #e67e22;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.test {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.foods {
+  grid-column: 2;
+  grid-template-columns: 1fr 2fr 2fr;
+}
+.gallery-1 {
+  grid-column: 1;
+}
+.gallery-2 {
+  grid-column: 2;
+}
+.gallery-3 {
+  grid-column: 3;
+}
+.gallery-4 {
+  grid-column: 1;
+}
+.gallery-5 {
+  grid-column: 2;
+}
+.gallery-6 {
+  grid-column: 3;
+}
+.gallery-7 {
+  grid-column: 1;
+}
+
+.test-0 {
+  display: grid;
+  grid-column: 1;
+  grid-template-columns: 350px 350px;
+  padding: 100px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.test-onee {
+  background-color: #fdf2e9;
+  height: 300px;
+  width: 250px;
+  padding-left: 30px;
+  line-height: 28px;
+  grid-column: 1;
+}
+.testimonial-name {
+  font-size: 1rem;
+  color: #6f6f6f;
+  padding-left: 20px;
+}
+.test-1 {
+  background-color: #fdf2e9;
+  height: 300px;
+  width: 250px;
+  line-height: 28px;
+  grid-column: 2;
+  padding-left: 70px;
+}
+.test-2 {
+  background-color: #fdf2e9;
+  height: 300px;
+  width: 250px;
+  line-height: 28px;
+  grid-column: 1;
+  padding-left: 30px;
+}
+.test-3 {
+  background-color: #fdf2e9;
+  height: 300px;
+  width: 250px;
+  line-height: 28px;
+  grid-column: 2;
+  padding-left: 70px;
+}
+.img-test {
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
 }
