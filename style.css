@@ -287,7 +287,6 @@ ul li {
   padding-top: 3%;
   padding-bottom: 6%;
 }
-
 .recipe :-webkit-any-link {
   font-size: 20px;
   color: -webkit-link;
@@ -297,6 +296,231 @@ ul li {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
+.meals-gallery {
+  display: grid;
+  grid-template-columns: 50% 40%;
+  background-color: #fdf2e9;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+h1.test {
+  grid-column: 1;
+  font-size: 40px;
+}
+.test {
+  grid-column: 1;
+  font-size: 10px;
+}
+.full-gal {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.left {
+  padding-left: 103px;
+  grid-column: 1;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap: 3%;
+}
+.client-1 {
+  grid-column: 1;
+  width: 200px;
+  padding-bottom: 50px;
+}
+.client-2 {
+  grid-column: 2;
+  width: 200px;
+}
+.client-3 {
+  width: 200px;
+}
+.client-4 {
+  width: 200px;
+}
+.right {
+  grid-column: 2;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+  padding-right: 50px;
+  padding-top: 50px;
+}
+.gallery {
+  overflow: hidden;
+  width: 240px;
+  height: 210px;
+}
+
+.img-1 {
+  grid-column: 1;
+  width: 230px;
+  height: 200px;
+}
+.img-1 {
+  display: block;
+  width: 100%;
+  transition: all 0.4s;
+}
+
+.img-1:hover {
+  transform: scale(1.1);
+}
+.img-2 {
+  grid-column: 2;
+  width: 230px;
+  height: 200px;
+}
+.img-2 {
+  display: block;
+  width: 100%;
+  transition: all 0.4s;
+}
+
+.img-2:hover {
+  transform: scale(1.1);
+}
+.img-3 {
+  grid-column: 3;
+  width: 230px;
+  height: 200px;
+}
+.img-3 {
+  display: block;
+  width: 100%;
+  transition: all 0.4s;
+}
+
+.img-3:hover {
+  transform: scale(1.1);
+}
+.img-4 {
+  grid-column: 1;
+  width: 230px;
+  height: 200px;
+}
+.img-4 {
+  display: block;
+  width: 100%;
+  transition: all 0.4s;
+}
+
+.img-4:hover {
+  transform: scale(1.1);
+}
+.img-5 {
+  grid-column: 2;
+  width: 230px;
+  height: 200px;
+}
+.img-5 {
+  display: block;
+  width: 100%;
+  transition: all 0.4s;
+}
+
+.img-5:hover {
+  transform: scale(1.1);
+}
+.img-6 {
+  grid-column: 3;
+  width: 230px;
+  height: 200px;
+}
+.img-6 {
+  display: block;
+  width: 100%;
+  transition: all 0.4s;
+}
+
+.img-6:hover {
+  transform: scale(1.1);
+}
+.img-7 {
+  grid-column: 1;
+  width: 230px;
+  height: 200px;
+}
+.img-7 {
+  display: block;
+  width: 100%;
+  transition: all 0.4s;
+}
+
+.img-7:hover {
+  transform: scale(1.1);
+}
+.img-8 {
+  grid-column: 2;
+  width: 230px;
+  height: 200px;
+}
+.img-8 {
+  display: block;
+  width: 100%;
+  transition: all 0.4s;
+}
+
+.img-8:hover {
+  transform: scale(1.1);
+}
+.img-9 {
+  grid-column: 3;
+  width: 230px;
+  height: 200px;
+}
+.img-9 {
+  display: block;
+  width: 100%;
+  transition: all 0.4s;
+}
+
+.img-9:hover {
+  transform: scale(1.1);
+}
+.img-10 {
+  grid-column: 1;
+  width: 230px;
+  height: 200px;
+}
+.img-10 {
+  display: block;
+  width: 100%;
+  transition: all 0.4s;
+}
+
+.img-10:hover {
+  transform: scale(1.1);
+}
+.img-11 {
+  grid-column: 2;
+  width: 230px;
+  height: 200px;
+}
+.img-11 {
+  display: block;
+  width: 100%;
+  transition: all 0.4s;
+}
+
+.img-11:hover {
+  transform: scale(1.1);
+}
+.img-12 {
+  grid-column: 3;
+  width: 230px;
+  height: 200px;
+}
+.img-12 {
+  display: block;
+  width: 100%;
+  transition: all 0.4s;
+}
+
+.img-12:hover {
+  transform: scale(1.1);
+}
+
+/*
 .test {
   display: grid;
   grid-template-columns: 50% 50%;
@@ -379,4 +603,4 @@ ul li {
   border-radius: 50%;
   width: 70px;
   height: 70px;
-}
+} */
