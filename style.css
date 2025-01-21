@@ -348,12 +348,11 @@ h1.test {
 .gallery {
   overflow: hidden;
   width: 240px;
-  height: 210px;
 }
 
 .img-1 {
   grid-column: 1;
-  width: 230px;
+  width: 160px;
   height: 200px;
 }
 .img-1 {
@@ -519,88 +518,26 @@ h1.test {
 .img-12:hover {
   transform: scale(1.1);
 }
-
-/*
-.test {
-  display: grid;
-  grid-template-columns: 50% 50%;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+.pricing {
+  background-color: white;
 }
-.foods {
-  grid-column: 2;
-  grid-template-columns: 1fr 2fr 2fr;
+.pricing {
+  padding-bottom: 20%;
 }
-.gallery-1 {
-  grid-column: 1;
+.cards {
+  display: flex;
 }
-.gallery-2 {
-  grid-column: 2;
+.card-one {
+  width: 350px;
+  height: 500px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+  background-color: #ffffff;
+  margin-left: 25%;
 }
-.gallery-3 {
-  grid-column: 3;
+.card-two {
+  width: 350px;
+  height: 500px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+  background-color: #c16f26;
+  margin-left: 10%;
 }
-.gallery-4 {
-  grid-column: 1;
-}
-.gallery-5 {
-  grid-column: 2;
-}
-.gallery-6 {
-  grid-column: 3;
-}
-.gallery-7 {
-  grid-column: 1;
-}
-
-.test-0 {
-  display: grid;
-  grid-column: 1;
-  grid-template-columns: 350px 350px;
-  padding: 100px;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-}
-
-.test-onee {
-  background-color: #fdf2e9;
-  height: 300px;
-  width: 250px;
-  padding-left: 30px;
-  line-height: 28px;
-  grid-column: 1;
-}
-.testimonial-name {
-  font-size: 1rem;
-  color: #6f6f6f;
-  padding-left: 20px;
-}
-.test-1 {
-  background-color: #fdf2e9;
-  height: 300px;
-  width: 250px;
-  line-height: 28px;
-  grid-column: 2;
-  padding-left: 70px;
-}
-.test-2 {
-  background-color: #fdf2e9;
-  height: 300px;
-  width: 250px;
-  line-height: 28px;
-  grid-column: 1;
-  padding-left: 30px;
-}
-.test-3 {
-  background-color: #fdf2e9;
-  height: 300px;
-  width: 250px;
-  line-height: 28px;
-  grid-column: 2;
-  padding-left: 70px;
-}
-.img-test {
-  border-radius: 50%;
-  width: 70px;
-  height: 70px;
-} */
