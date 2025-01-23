@@ -802,7 +802,7 @@
  
  
  
-     <div class="elements">
+     <!-- <div class="elements">
 
 
      <div class="feature">
@@ -849,48 +849,85 @@
               unused days.
             </p>
           </div>
-        </div>
+        </div> -->
 
 
 
    </div>
     </div>
-     <form action=""></form>
-             <div class="details">
-     
-        <div class="content">
-          <h1>Get your first meal for free!</h1>
-          <p>Healthy, tasty and hassle-free meals are waiting for you. Start eating well today. You can cancel or pause anytime. And the first meal is on us!</p>
-                 <label for="full-name">Full Name</label>
+      <section class="section-cta">
+        <div class="container">
+          <div class="cta">
+            <div class="cta-text-box">
+              <h2 class="heading-secondary">Get your first meal for free!</h2>
+              <p class="cta-text">
+                Healthy, tasty and hassle-free meals are waiting for you. Start
+                eating well today. You can cancel or pause anytime. And the
+                first meal is on us!
+              </p>
+
+              <form
+                class="cta-form"
+                action="#"
+              >
+                <div>
+                  <label for="full-name">Full Name</label>
                   <input
                     id="full-name"
                     type="text"
                     placeholder="John Smith"
                     required
                   />
-                   <label for="email">Email</label>
+                </div>
+
+                <div>
+                  <label for="email">Email address</label>
                   <input
                     id="email"
-                    type="text"
-                    placeholder="Email"
+                    type="email"
+                    placeholder="me@example.com"
                     required
                   />
+                </div>
 
-                  
-                  
+                <div>
+                  <label for="select-where">Where did you hear from us?</label>
+                  <select
+                    id="select-where"
+                    required
+                  >
+                    <option value="">Please choose one option:</option>
+                    <option value="friends">Friends and family</option>
+                    <option value="youtube">YouTube video</option>
+                    <option value="podcast">Podcast</option>
+                    <option value="ad">Facebook ad</option>
+                    <option value="others">Others</option>
+                  </select>
+                </div>
+
+                <button class="btn btn--form">Sign up now</button>
+
+                <!-- <input type="checkbox" />
+                <input type="number" /> -->
+              </form>
+            </div>
+            <div
+              class="cta-img-box"
+              role="img"
+              aria-label="Woman enjoying food"
+        
+            > <img src="Img/img/eating.jpg" alt=""></div>
+          </div>
         </div>
-        <div class="profile">
-          <img src="Img/img/eating.jpg" alt="" width="100%" height="100%">
-          
-        </div>
+      </section>
 
         
  
-      </div>
-           </form>
+     
+         
            <div class="footer">
             <div class="sec-one">
-              <img src="Img/img/omnifood-logo.png" alt="img" width="150" height="20">
+              <img src="Img/img/omnifood-logo.png" alt="img" width="150" height="20" style="padding-bottom: 25px;padding-top: 8px;">
               <ul class="social-links">
             <li>
               <a
@@ -924,19 +961,20 @@
             </li>
           </ul>
 
-          <p class="copyright">
+          <p class="copyright" style=" color: #767676;
+  margin-top: 40px;">
             Copyright &copy; 2027 by Omnifood, Inc. All rights reserved.
           </p>
               
             </div>
             <div class="sec-two">
-           <h3>Contact us</h3>
+           <h3 style="padding-bottom: 25px;  color: #45260a;">Contact us</h3>
            <p>623 Harrison St., 2nd Floor, San Francisco, CA 94107</p>
            <p>123456789</p>
            <p>hello@omnifood.com</p>
             </div>
             <div class="sec-three">
-            <h3>Account</h3>
+            <h3 style="padding-bottom: 25px; color: #45260a;">Account</h3>
             <p><a href="">Create Account</a></p>
             
             <p><a href="">Sign in</a></p>
@@ -944,7 +982,7 @@
             <p> <a href="">Andriod app</a></p>
             
              </div>
-            <div class="sec-four"> <h3>Company</h3>
+            <div class="sec-four"> <h3 style="padding-bottom: 25px; color: #45260a;">Company</h3>
             
             
             <p><a href="">About Omnifood</a></p>
@@ -952,7 +990,7 @@
             <p> <a href="">Cooking partner</a></p>
             <p><a href="">Careers</a></p>
           </div>
-            <div class="sec-five">      <h3>Resource</h3>
+            <div class="sec-five">      <h3 style="padding-bottom: 25px; color: #45260a;">Resources</h3>
            
             
             <p><a href="">Recipe directory</a></p>
