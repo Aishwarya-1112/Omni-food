@@ -582,7 +582,7 @@ h1.test {
   display: grid;
   grid-template-columns: 65% 35%;
   justify-content: center;
-  margin-left: 250px;
+  margin-left: 205px;
   overflow: hidden;
   margin-bottom: 7%;
   background-size: cover;
@@ -639,11 +639,10 @@ select {
 }
 .sign {
   background-color: #45260a;
-  margin-left: 9%;
+  margin-left: 7%;
   display: inline-block;
   text-align: center;
   width: 18rem;
-  margin-bottom: 60px;
 }
 
 .footer {
