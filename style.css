@@ -637,11 +637,13 @@ select {
   display: flex;
   column-gap: 5rem;
 }
-.sign-button {
+.sign {
   background-color: #45260a;
-  margin-left: 10%;
-  padding: 1rem 10rem 2rem 7rem;
-  margin-top: 2rem;
+  margin-left: 9%;
+  display: inline-block;
+  text-align: center;
+  width: 18rem;
+  margin-bottom: 60px;
 }
 
 .footer {
