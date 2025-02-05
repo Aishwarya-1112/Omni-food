@@ -99,7 +99,8 @@ button {
 .container p {
   letter-spacing: 0.75px;
   font-weight: 700;
-  text-align: center;
+  display: flex;
+  justify-content: center;
   margin-bottom: 1rem;
   color: #888;
 }
@@ -545,6 +546,13 @@ h1.test {
   overflow: hidden;
   position: relative;
 }
+.works p {
+  color: #b55e12;
+  display: flex;
+  align-items: start;
+  margin-top: 10rem;
+  padding-left: 10px;
+}
 .elements {
   display: flex;
   padding: 100px;
@@ -726,4 +734,168 @@ select {
   font-size: 20px;
   font-weight: 500;
   margin-bottom: 1.2rem;
+}
+@media only screen and (max-width: 748px) {
+  /* Hero Section */
+  .hero {
+    flex-direction: column; /* Stack the elements vertically */
+    align-items: center;
+  }
+
+  .logo {
+    height: 2rem; /* Make the logo smaller for mobile */
+    padding: 10px;
+  }
+
+  .nav-bar {
+    display: none;
+  }
+
+  .nav-bar a {
+    font-size: 1rem; /* Smaller font size for nav links */
+    padding: 10px 20px;
+  }
+  .container img {
+    height: 1.2rem;
+    width: 5.7rem;
+
+    filter: brightness(0);
+    opacity: 50%;
+    display: inline;
+    padding: 0px 10px 10px 10px;
+  }
+  .works p {
+    color: #b55e12;
+    display: flex;
+    margin-top: 10rem;
+    padding-left: 10px;
+  }
+
+  /* Summary Section */
+  .summary {
+    flex-direction: column; /* Stack summary content vertically */
+    padding: 20px;
+  }
+
+  .sumdiv h1 {
+    font-size: 2.5rem; /* Smaller font size for headings */
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .sumdiv p {
+    font-size: 1.5rem; /* Smaller font size for paragraphs */
+    padding: 20px;
+    width: 100%;
+    text-align: start;
+  }
+  .order {
+    display: flex;
+  }
+  .start {
+    width: 100px;
+    margin: 0px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    justify-content: center;
+  }
+  .learn {
+    background-color: white;
+    color: #333;
+    width: 10rem;
+    height: 3rem;
+    padding: 0px;
+    margin-left: 40px;
+    margin: 0px 0px 0px 40px;
+    font-size: 12px;
+  }
+  .hero-pic {
+    height: 200px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    margin-left: 0px;
+    /* align-items: center; */
+  }
+
+  /* Meals Section */
+  .menu {
+    grid-template-columns: 1fr; /* Stack meal cards vertically */
+  }
+
+  .veg,
+  .vegan,
+  .vegans {
+    width: 100%; /* Make meal cards take full width */
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .meal-icon {
+    height: 1.5rem;
+    width: 1.5rem;
+  }
+
+  /* Recipe Section */
+  .recipe {
+    flex-direction: column; /* Stack recipe elements vertically */
+    padding: 20px;
+  }
+
+  /* Pricing Section */
+  .cards {
+    flex-direction: column; /* Stack pricing cards vertically */
+    gap: 20px;
+  }
+
+  .card-one,
+  .card-two {
+    width: 100%; /* Make cards full-width */
+    margin: 0;
+  }
+
+  /* Footer Section */
+  .footer {
+    flex-direction: column; /* Stack footer items vertically */
+    padding: 20px;
+    column-gap: 0;
+    row-gap: 20px;
+    align-items: center;
+  }
+
+  .sec-one,
+  .sec-two,
+  .sec-three,
+  .sec-four,
+  .sec-five {
+    width: 100%; /* Make footer sections full-width */
+    text-align: center;
+  }
+
+  .footer-link {
+    font-size: 0.9rem; /* Make footer links smaller */
+  }
+
+  /* Profile Form */
+  .content form label {
+    font-size: 16px; /* Smaller font size for labels */
+  }
+
+  input,
+  select {
+    padding: 0.6rem;
+    font-size: 0.9rem;
+  }
+
+  /* Other Specific Adjustments */
+  .round,
+  .round-two,
+  .roundo,
+  .round-twoo {
+    width: 180px;
+    height: 180px;
+  }
 }
